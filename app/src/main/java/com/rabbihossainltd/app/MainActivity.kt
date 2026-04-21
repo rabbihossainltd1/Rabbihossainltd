@@ -15,7 +15,7 @@ import androidx.appcompat.app.AppCompatActivity
 class MainActivity : AppCompatActivity() {
 
     private lateinit var webView: WebView
-    private val homeUrl = "http://rabbihossainltd.page.gd/"
+    private val homeUrl = "http://rabbihossainltd.page.gd/?app=1"
 
     @SuppressLint("SetJavaScriptEnabled")
     override fun onCreate(savedInstanceState: Bundle?) {
